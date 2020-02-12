@@ -8,3 +8,7 @@
 
 ### Flexbox
 Estudos sobre Flexbox aprendidos nas aulas Bônus do Bootcamp GoStack da RocketSeat.
+
+
+#### Tips
+Use um Live Reloader.
