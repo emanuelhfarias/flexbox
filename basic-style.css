@@ -1,0 +1,40 @@
+html, body, #app {
+  height: 100%;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+.box {
+  width: 300px;
+  height: 90px;
+  background-color: rgb(167, 71, 71);
+  margin: 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex: 1 0; /* quero que aumente mas não exprema */
+  flex: 1;
+}
+
+.red {
+  background-color: red;
+  order: 0;
+}
+
+.green {
+  background-color: green;
+  order: 1;
+}
+
+.blue {
+  background-color: blue;
+  order: 2;
+}
