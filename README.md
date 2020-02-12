@@ -1,4 +1,3 @@
-# Flexbox
 <h1 align="center">
   <img alt="CSS3" title="CSS3" src="CSS3.png" width="100px" />
 </h1>
